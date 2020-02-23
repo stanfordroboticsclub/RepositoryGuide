@@ -3,7 +3,7 @@ The goal of this repository is to maintain a list of modules that are in a state
 
 
 ## Raspberry Pi Setup
-- [RPISetup]() - Automates setting up raspberry pis in a repeatable way. Also sets up a read only file system (highly recomended to make your robots much more reliable) and the subnet (10.0.0.X) other modules expect
+- [RPISetup](https://github.com/stanfordroboticsclub/RPI-Setup) - Automates setting up raspberry pis in a repeatable way. Also sets up a read only file system (highly recomended to make your robots much more reliable) and the subnet (10.0.0.X) other modules expect
 
 
 ## Sending data
