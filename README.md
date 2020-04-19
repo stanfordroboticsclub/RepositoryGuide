@@ -56,8 +56,8 @@ In an ideal world those programs running on remote pis could also be controlled 
 | Command | Descripion | Rover (not super reliable) |
 |---------|------------|-------|
 | `sudo systemctl status name` | tell us what the service is doing right now | `rover status host service` |
-|`sudo systemctl start name` | start the service right now | `rover status start service` |
-|`sudo systemctl stop name` | stop the service right now | `rover status stop service` |
+|`sudo systemctl start name` | start the service right now | `rover  start host service` |
+|`sudo systemctl stop name` | stop the service right now | `rover  stop host service` |
 |`sudo systemctl disable name` | stop the service from starting on boot | `rover disable host service` |
 |`sudo systemctl enable name` | make the service start on boot | `rover enable host service` |
 |`journalctl -u name` | display the output of the service | `rover log host service` |
